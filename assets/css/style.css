@@ -1,0 +1,67 @@
+body {
+    background-color: #dddddd;
+    padding: 25px;
+    background-image: url("../images/wallpaper.jpg");
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+}
+
+#title {
+    color: #fff;
+    font-size: 40px;
+    background-color: #e23636;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+#instructions {
+    color: #000000;
+    background-color: #504a4a;
+    padding: 25px;
+    border: 2px solid #fff;
+}
+
+#numberBox {
+    color: #fff;
+    background-color: #518cca;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+#scoreBoard {
+    color: #fff;
+    background-color: #518cca;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+#gem-img {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#myScore {
+    color: #fff;
+    background-color: #f78f3f;
+    border: 2px solid #fff;
+    margin: 0;
+}
+
+#quickTimer {
+    color: #fff;
+    background-color: #f78f3f;
+    border: 2px solid #fff;
+    margin: 0;
+}

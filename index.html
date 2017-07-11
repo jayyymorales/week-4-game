@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.ss">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Hunter</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5" id="title">
+                <h1>Crystal Hunter</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" id="instructions">
+                <p>You will be given a random number at the start of the game
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                <p>The value of crystal is hidden from you until you click on it.
+                <p>Each time when the game starts, the game will change the values of each crystal.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2" id="numberBox">
+                <div>
+                    <h3>Number To Match:
+                    <span id="computerNumber"></span></h3>
+                </div>
+            </div>
+            <div class=" col-md-2 col-md-offset-1" id="scoreBoard">
+                <div>
+                    <h3>Wins: 
+                    <span id="myWins"></span></h3>
+                </div>
+                <div>
+                    <h3>Losses: 
+                    <span id="myLosses"></span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2" id="gem-img">
+                <img id="c1" alt="Bootstrap Image Preview" src=assets/images/crystal1.png>
+            </div>
+            <div class="col-md-2" id="gem-img">
+                <img id="c2" alt="Bootstrap Image Preview" src=assets/images/crystal2.png>
+            </div>
+            <div class="col-md-2" id="gem-img">
+                <img id="c3" alt="Bootstrap Image Preview" src=assets/images/crystal3.png>
+            </div>
+            <div class="col-md-2" id="gem-img">
+                <img id="c4" alt="Bootstrap Image Preview" src=assets/images/crystal4.png>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" id="myScore">
+                <h2>Your total score is: <span id="myTotal"></span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" id="quickTimer">
+                <h2>Seconds Left: <span id="myTimer"></span></h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+    </script>
+</body>
+
+</html>
